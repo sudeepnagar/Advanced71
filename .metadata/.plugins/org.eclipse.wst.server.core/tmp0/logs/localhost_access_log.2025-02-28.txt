@@ -1,0 +1,10 @@
+127.0.0.1 - - [28/Feb/2025:11:33:56 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [28/Feb/2025:11:33:58 +0530] "GET /HotelLiviya/ HTTP/1.1" 200 1963
+0:0:0:0:0:0:0:1 - - [28/Feb/2025:11:33:58 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [28/Feb/2025:11:34:35 +0530] "GET /HotelLiviya/login.html HTTP/1.1" 200 2096
+0:0:0:0:0:0:0:1 - - [28/Feb/2025:11:34:46 +0530] "POST /HotelLiviya/login HTTP/1.1" 404 773
+0:0:0:0:0:0:0:1 - - [28/Feb/2025:11:34:52 +0530] "GET /HotelLiviya/register.html HTTP/1.1" 200 2218
+0:0:0:0:0:0:0:1 - - [28/Feb/2025:11:35:37 +0530] "POST /HotelLiviya/reg HTTP/1.1" 404 771
+0:0:0:0:0:0:0:1 - - [28/Feb/2025:11:35:51 +0530] "GET /HotelLiviya/register.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Feb/2025:11:35:58 +0530] "GET /HotelLiviya/contact.html HTTP/1.1" 200 3322
+0:0:0:0:0:0:0:1 - - [28/Feb/2025:11:36:39 +0530] "GET /HotelLiviya/front.html HTTP/1.1" 200 1963

@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+  String Sroll=request.getParameter("sroll");
+  String Sname=request.getParameter("sname");
+  String Sbranch=request.getParameter("sbranch");
+  int Spm=Integer.parseInt(request.getParameter("sphmarks"));
+  int Scm=Integer.parseInt(request.getParameter("schmarks"));
+  int Smm=Integer.parseInt(request.getParameter("smmarks"));
+  int Stotmarks=Spm+Scm+Smm;
+  float Sper=(float)Stotmarks/3;
+  String Sres=Sper>=40?"Pass":"Fail";
+
+  out.println("*********Student Details***********");
+  out.println("Student Roll no:"+Sroll);
+  out.println("Student Name:"+Sname);
+  out.println("Student Branch:"+Sbranch);
+  out.println("Student Physics Marks:"+Spm);
+  out.println("Student Chemistry Marks:"+Scm);
+  out.println("Student Maths Marks:"+Smm);
+  out.println("Student Total Marks:"+Stotmarks);
+  out.println("Student Sper:"+Sper);
+  out.println("Student Sres:"+Sres);
+%>
+</body>
+</html>

@@ -1,0 +1,10 @@
+package test;
+
+import java.util.*;
+import jakarta.servlet.*;
+import jakarta.servlet.annotation.*;
+
+@WebServlet("/avg")
+public class AverageServlet implements GenericServlet {
+
+}

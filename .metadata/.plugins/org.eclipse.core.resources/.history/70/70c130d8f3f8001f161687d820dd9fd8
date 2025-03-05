@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+String bCode=request.getParameter("bcode");
+String bName=request.getParameter("bname");
+String bAuthor=request.getParameter("bauthor");
+float bprice=Float.parseFloat(request.getParameter("bprice"));
+
+%>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Page</title>
+    <style>
+        body {
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fad0c4, #ffdde1);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        a {
+            display: inline-block;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            background: #ff6f61;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        a:hover {
+            background: #d84315;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My WebSite</h1>
+        <a href="https://www.example.com" target="_blank">Go to MyWebsite</a>
+    </div>
+</body>
+</html>

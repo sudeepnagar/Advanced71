@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="dis" method="post">
+
+ Enter Student Roll:<input type="text" name="sroll"><br>
+ Enter Student Name:<input type="text" name="sname"><br>
+ Enter Student Branch:<input type="text" name="sbranch"><br>
+ Enter Student Physics Marks:<input type="text" name="sphmarks"><br>
+ Enter Student Chemistry Marks:<input type="text" name="schmarks"><br>
+ Enter Student Math Marks:<input type="text" name="smmarks"><br>
+
+ Enter Student Percentage:<input type="text" name="sper"><br>
+ Enter Student Result:<input type="text" name="sres"><br>
+<input type="Submit" name="Display">
+ 
+</form>
+</body>
+</html>
